@@ -1,0 +1,44 @@
+/* img wont have that little spacing */
+.thumbnail {
+	padding: 0;
+}
+
+/* img take full space in thumbnail */
+.thumbnail img {
+	width: 100%;
+}
+
+/* delete button inline with edit */
+.delete-form {
+	display: inline;
+}
+
+.log-reg-form {
+	width: 30%;
+	margin: 25px auto;
+	min-width: 250px;
+}
+
+/* set map size */
+#map{
+	padding-top: 20px;
+	width: 100%;
+	height: 300px;
+}
+
+/* make localisation centered */
+#localisation {
+	text-align: center;
+}
+
+/* set emph to be italic */
+emph {
+	font-style: italic;
+}
+
+/* style for campgrounds INDEX */
+.row.text-center {
+  display: flex;
+  flex-wrap: wrap;
+  padding: auto;
+}
